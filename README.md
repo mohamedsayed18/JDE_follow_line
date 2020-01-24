@@ -7,3 +7,7 @@ the exercise can be broke down into three tasks<br/>
 * color detection
 * find the center of an image or shape
 * implement the controller (PID, P, PD,...)
+
+##### files 
+colordetection.py (Example how to do color detection) <br/>
+MyAlgorithm.py (solution of the exercise)

@@ -119,8 +119,8 @@ class MyAlgorithm(threading.Thread):
             accumalted_error += error
         except UnboundLocalError:
             accumalted_error = 0
+        
         last_error = error
-        #print(error)
 
         #EXAMPLE OF HOW TO SEND INFORMATION TO THE ROBOT ACTUATORS
         self.motors.sendV(3)   #+ve=forward, -ve=Backward
